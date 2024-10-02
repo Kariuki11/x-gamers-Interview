@@ -1,0 +1,19 @@
+.w-100{
+    width: 100%;
+}
+ .h-64{
+    height: 256px;
+ } 
+ .overflow-hidden {
+    overflow: hidden;
+ } 
+ .min-w-72 {
+    min-width: 288px;
+ }
+
+ .top-2 {
+    top: 8px;
+ }
+ .right-2 {
+    right: 8px;
+ }
