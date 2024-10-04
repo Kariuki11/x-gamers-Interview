@@ -143,7 +143,7 @@ $products= [
 
       
         <?php foreach ($games as $game) { ?>
-          <section class="m-2 d-flex flex-wrap gap-3 align-items-start justify-content-start">
+          <!-- <section class="m-2 d-flex flex-wrap gap-3 align-items-start justify-content-start"> -->
   <div class="card mb-3 game-card col-md-3 shadow border rounded-md">
       <div class="card-header bg-white border-0 p-0">
           <div class="w-100 h-64 overflow-hidden min-w-72 position-relative">
@@ -155,7 +155,7 @@ $products= [
           </div>
       </div>
       <div class="card-body p-2">
-        <h5 class="card-title ">game title</h5>
+        <h5 class="card-title "><?php echo $item["name"]?></h5>
         <div>
           <span class="badge rounded-pill text-bg-primary">Price</span>
           <span class="badge rounded-pill text-bg-secondary">Genre</span>
@@ -174,7 +174,7 @@ $products= [
         <a href="#" class="btn btn-secondary">Add to Cart</a>
       </div>
   </div>
-</section>
+<!-- </section> -->
           <?php } ?>
       </div>
     </div>
