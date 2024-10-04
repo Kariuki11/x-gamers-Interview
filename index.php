@@ -42,7 +42,7 @@ $data=[]
       <?php foreach ($data as $item) { ?>
     <div class="col-md-4 product-card">
       <div class="card">
-        <img src="<?php echo item.image?>" alt="Elden Ring" class="card-img-top">
+        <img src="<?php echo item.image?>" alt="<?php echo item.title?>" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title fst-italic fw-bold"><?php echo item.title?></h5>
           <p class="card-text"><strong>Category:</strong><?php echo item.category?></p>
