@@ -181,7 +181,7 @@ $products= [
   </section>
 
   <section class="shop">
-    <div class="products">
+    <div class="products flex flex-row align-items-center overflow-x-scroll gap-3 p-3">
       <?php foreach ($products as $item) { ?>
         <div class="col-md-4 product-card">
     <div class="card">
