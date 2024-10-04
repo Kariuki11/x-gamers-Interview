@@ -8,7 +8,8 @@ $games= [
     "platform" => "PC",
     "size" => "10GB",
     "release_date" => "2022",
-    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage"
+    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+    "image" => "https://i.pinimg.com/564x/3f/4c/84/3f4c84129f0c01e819e73fc392480bce.jpg"
   ],
   [
     "title" => "Game 2",
@@ -18,7 +19,8 @@ $games= [
     "platform" => "PC",
     "size" => "20GB",
     "release_date" => "2022",
-    "min_requirements" => "Intel Core i7, 16GB RAM, 4GB VRAM, 40GB Storage"
+    "min_requirements" => "Intel Core i7, 16GB RAM, 4GB VRAM, 40GB Storage",
+    "image" => "https://i.pinimg.com/564x/97/a4/88/97a488fdb368f0b37e719c2a191305c0.jpg"
   ],
   [
     "title" => "Game 3",
@@ -28,7 +30,8 @@ $games= [
     "platform" => "PC",
     "size" => "30GB",
     "release_date" => "2022",
-    "min_requirements" => "Intel Core i9, 32GB RAM, 8GB VRAM, 60GB Storage"
+    "min_requirements" => "Intel Core i9, 32GB RAM, 8GB VRAM, 60GB Storage",
+    "image" => "https://i.pinimg.com/736x/af/bf/cf/afbfcfcaf49486a63eafbd6e845beccf.jpg"
   ],
   [
     "title" => "Game 4",
@@ -38,7 +41,8 @@ $games= [
     "platform" => "PC",
     "size" => "40GB",
     "release_date" => "2022",
-    "min_requirements" => "Intel Core i3, 4GB RAM, 1GB VRAM, 10GB Storage"
+    "min_requirements" => "Intel Core i3, 4GB RAM, 1GB VRAM, 10GB Storage",
+    "image" => "https://i.pinimg.com/736x/ab/0f/26/ab0f260c508429e347c66acc18d4f24a.jpg"
   ],
   [
     "title" => "Game 5",
@@ -48,13 +52,20 @@ $games= [
     "platform" => "PC",
     "size" => "50GB",
     "release_date" => "2022",
-    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage"
+    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+    "image" => "https://i.pinimg.com/564x/97/a4/88/97a488fdb368f0b37e719c2a191305c0.jpg"
   ],
   [
     "title" => "Game 6",
     "price" => "600",
     "genre" => "Simulation",
-    "availability"
+    "availability" => "Available",
+    "platform" => "PC",
+    "size" => "60GB",
+    "release_date" => "2022",
+    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+    "image" => "https://i.pinimg.com/564x/97/a4/88/97a488fdb368f0b37e719c2a191305c0.jpg"
+
 ]
   // Add more games as needed
 ];
@@ -196,7 +207,7 @@ $products= [
         <div class="card mb-3 game-card col-md-3 shadow border rounded-md">
           <div class="card-header bg-white border-0 p-0">
             <div class="w-100 h-64 overflow-hidden min-w-72 position-relative">
-              <img src="https://i.pinimg.com/564x/ec/eb/84/eceb8403c8d34c9fc9dfc818f004c386.jpg" class="card-img-top img-fluid" alt="...">
+              <img src="<?php echo $game["image"]; ?>" class="card-img-top img-fluid" alt="...">
               <button type="button" class="btn btn-outline-primary position-absolute top-2 right-2 z-3 border-0 shadow-none">
                 <i class="bi-heart"></i>
               </button>
