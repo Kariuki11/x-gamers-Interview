@@ -1,5 +1,81 @@
 <?php 
-$data=[]
+$data=[
+    [
+        "title"=>"Cyberpunk 2077",
+        "category"=>"Action",
+        "availability"=>"In Stock",
+        "price"=>"$49.99",
+        "image"=>"static/images/cyberpunk.jpg"
+    ],
+    [
+        "title"=>"Assassin's Creed Valhalla",
+        "category"=>"Action",
+        "availability"=>"In Stock",
+        "price"=>"$59.99",
+        "image"=>"static/images/assassins.jpg"
+    ],
+    [
+        "title"=>"Call of Duty: Black Ops Cold War",
+        "category"=>"Action",
+        "availability"=>"In Stock",
+        "price"=>"$69.99",
+        "image"=>"static/images/cod.jpg"
+    ],
+    [
+        "title"=>"FIFA 22",
+        "category"=>"Sports",
+        "availability"=>"In Stock",
+        "price"=>"$59.99",
+        "image"=>"static/images/fifa.jpg"
+    ],
+    [
+        "title"=>"NBA 2K22",
+        "category"=>"Sports",
+        "availability"=>"In Stock",
+        "price"=>"$59.99",
+        "image"=>"static/images/nba.jpg"
+    ],
+    [
+        "title"=>"Madden NFL 22",
+        "category"=>"Sports",
+        "availability"=>"In Stock",
+        "price"=>"$59.99",
+        "image"=>"static/images/madden.jpg"
+    ],
+    [
+        "title"=>"The Last of Us Part II",
+        "category"=>"Adventure",
+        "availability"=>"In Stock",
+        "price"=>"$49.99",
+        "image"=>"static/images/lastofus.jpg"
+    ],
+    [
+        "title"=>"Red Dead Redemption 2",
+        "category"=>"Adventure",
+        "availability"=>"In Stock",
+        "price"=>"$49.99",
+        "image"=>"static/images/reddead.jpg"
+    ],
+    [
+        "title"=>"Ghost of Tsushima",
+        "category"=>"Adventure",
+        "availability"=>"In Stock",
+        "price"=>"$49.99",
+        "image"=>"static/images/ghost.jpg"
+    ],
+    [
+        "title"=>"Super Mario Odyssey",
+        "category"=>"Adventure",
+        "availability"=>"In Stock",
+        "price"=>"$49.99",
+        "image"=>"static/images/mario.jpg"
+    ],
+    [
+        "title"=>"The Legend of Zelda: Breath of the Wild",
+        "category"=>"Adventure",
+        "availability"=>"In Stock",
+    ]
+    ];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,12 +118,12 @@ $data=[]
       <?php foreach ($data as $item) { ?>
     <div class="col-md-4 product-card">
       <div class="card">
-        <img src="<?php echo item.image?>" alt="<?php echo item.title?>" class="card-img-top">
+        <img src="<?php echo $item.image?>" alt="<?php echo $item.title?>" class="card-img-top">
         <div class="card-body">
-          <h5 class="card-title fst-italic fw-bold"><?php echo item.title?></h5>
-          <p class="card-text"><strong>Category:</strong><?php echo item.category?></p>
-          <p class="card-text"><strong></strong><i class="bi bi-truck"></i><?php echo item.availability?></p>
-          <p class="card-text"><strong>Price</strong><?php echo item.price?></p>
+          <h5 class="card-title fst-italic fw-bold"><?php echo $item.title?></h5>
+          <p class="card-text"><strong>Category:</strong><?php echo $item.category?></p>
+          <p class="card-text"><strong></strong><i class="bi bi-truck"></i><?php echo $item.availability?></p>
+          <p class="card-text"><strong>Price</strong><?php echo $item.price?></p>
           <button class="btn add-to-cart"><i class="bi bi-cart"></i> Add to Cart</button>
         </div>
       </div>
