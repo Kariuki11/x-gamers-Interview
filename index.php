@@ -125,8 +125,22 @@ $products= [
 </head>
 <body>
   <section>
-    <div class="hero w-100 h-90 bg-light">
+    <div class="hero w-100 h-90 video-background">
+    <iframe id="youtube-video" 
+  src="https://www.youtube.com/embed/g3T9K06p358?autoplay=1&mute=1&loop=1&playlist=g3T9K06p358&controls=0&showinfo=0&modestbranding=1"
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="autoplay; fullscreen" 
+  allowfullscreen>
+</iframe>
+
+        <!-- Your content goes here -->
+        <div class="content">
+            <h1>Welcome to My Website</h1>
+            <p>Enjoy the background video!</p>
+        </div>
     </div>
+
   </section>
   <section class="computers">
     <div class="div1 w-100 h-80 bg-white"></div>
