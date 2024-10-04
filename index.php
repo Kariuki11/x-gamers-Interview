@@ -1,81 +1,113 @@
 <?php 
-$data=[
-    [
-        "title"=>"Cyberpunk 2077",
-        "category"=>"Action",
-        "availability"=>"In Stock",
-        "price"=>"$49.99",
-        "image"=>"static/images/cyberpunk.jpg"
-    ],
-    [
-        "title"=>"Assassin's Creed Valhalla",
-        "category"=>"Action",
-        "availability"=>"In Stock",
-        "price"=>"$59.99",
-        "image"=>"static/images/assassins.jpg"
-    ],
-    [
-        "title"=>"Call of Duty: Black Ops Cold War",
-        "category"=>"Action",
-        "availability"=>"In Stock",
-        "price"=>"$69.99",
-        "image"=>"static/images/cod.jpg"
-    ],
-    [
-        "title"=>"FIFA 22",
-        "category"=>"Sports",
-        "availability"=>"In Stock",
-        "price"=>"$59.99",
-        "image"=>"static/images/fifa.jpg"
-    ],
-    [
-        "title"=>"NBA 2K22",
-        "category"=>"Sports",
-        "availability"=>"In Stock",
-        "price"=>"$59.99",
-        "image"=>"static/images/nba.jpg"
-    ],
-    [
-        "title"=>"Madden NFL 22",
-        "category"=>"Sports",
-        "availability"=>"In Stock",
-        "price"=>"$59.99",
-        "image"=>"static/images/madden.jpg"
-    ],
-    [
-        "title"=>"The Last of Us Part II",
-        "category"=>"Adventure",
-        "availability"=>"In Stock",
-        "price"=>"$49.99",
-        "image"=>"static/images/lastofus.jpg"
-    ],
-    [
-        "title"=>"Red Dead Redemption 2",
-        "category"=>"Adventure",
-        "availability"=>"In Stock",
-        "price"=>"$49.99",
-        "image"=>"static/images/reddead.jpg"
-    ],
-    [
-        "title"=>"Ghost of Tsushima",
-        "category"=>"Adventure",
-        "availability"=>"In Stock",
-        "price"=>"$49.99",
-        "image"=>"static/images/ghost.jpg"
-    ],
-    [
-        "title"=>"Super Mario Odyssey",
-        "category"=>"Adventure",
-        "availability"=>"In Stock",
-        "price"=>"$49.99",
-        "image"=>"static/images/mario.jpg"
-    ],
-    [
-        "title"=>"The Legend of Zelda: Breath of the Wild",
-        "category"=>"Adventure",
-        "availability"=>"In Stock",
-    ]
-    ];
+$games= [
+  [
+    "title" => "Game 1",
+    "price" => "100",
+    "genre" => "Action",
+    "availability" => "Available",
+    "platform" => "PC",
+    "size" => "10GB",
+    "release_date" => "2022",
+    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage"
+  ],
+  [
+    "title" => "Game 2",
+    "price" => "200",
+    "genre" => "Adventure",
+    "availability" => "Available",
+    "platform" => "PC",
+    "size" => "20GB",
+    "release_date" => "2022",
+    "min_requirements" => "Intel Core i7, 16GB RAM, 4GB VRAM, 40GB Storage"
+  ],
+  [
+    "title" => "Game 3",
+    "price" => "300",
+    "genre" => "RPG",
+    "availability" => "Available",
+    "platform" => "PC",
+    "size" => "30GB",
+    "release_date" => "2022",
+    "min_requirements" => "Intel Core i9, 32GB RAM, 8GB VRAM, 60GB Storage"
+  ],
+  [
+    "title" => "Game 4",
+    "price" => "400",
+    "genre" => "Shooter",
+    "availability" => "Available",
+    "platform" => "PC",
+    "size" => "40GB",
+    "release_date" => "2022",
+    "min_requirements" => "Intel Core i3, 4GB RAM, 1GB VRAM, 10GB Storage"
+  ],
+  [
+    "title" => "Game 5",
+    "price" => "500",
+    "genre" => "Strategy",
+    "availability" => "Available",
+    "platform" => "PC",
+    "size" => "50GB",
+    "release_date" => "2022",
+    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage"
+  ],
+  [
+    "title" => "Game 6",
+    "price" => "600",
+    "genre" => "Simulation",
+    "availability"
+]
+];
+$products= [
+  [
+    "name" => "Product 1",
+    "category" => "Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+  ],
+  [
+    "name" => "Product 2",
+    "category" => "Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+  ],
+  [
+    "name" => "Product 3",
+    "category" => "Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+  ],
+  [
+    "name" => "Product 4",
+    "category" => "Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+  ],
+  [
+    "name" => "Product 5",
+    "category" => "Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+  ],
+  [
+    "name" => "Product 6",
+    "category" => "Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+  ]
+]
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -109,25 +141,61 @@ $data=[
       <p>Get the best games at the best prices</p>
       <div class="flex flex-row align-items-center overflow-x-scroll gap-3 p-3">
 
+      
+        <?php foreach ($games as $game) { ?>
+          <section class="m-2 d-flex flex-wrap gap-3 align-items-start justify-content-start">
+  <div class="card mb-3 game-card col-md-3 shadow border rounded-md">
+      <div class="card-header bg-white border-0 p-0">
+          <div class="w-100 h-64 overflow-hidden min-w-72 position-relative">
+              <img src="https://i.pinimg.com/564x/ec/eb/84/eceb8403c8d34c9fc9dfc818f004c386.jpg" class="card-img-top img-fluid" alt="...">
+              <p class="sr-only"></p>
+              <button type="button" class="btn btn-outline-primary position-absolute top-2 right-2 z-3 border-0 shadow-none"><i class="bi-heart"></i>
+                  <p class="sr-only hidden">Like</p>
+              </button>
+          </div>
+      </div>
+      <div class="card-body p-2">
+        <h5 class="card-title ">game title</h5>
+        <div>
+          <span class="badge rounded-pill text-bg-primary">Price</span>
+          <span class="badge rounded-pill text-bg-secondary">Genre</span>
+          <span class="badge rounded-pill text-bg-success">Available</span>
+          <span class="badge rounded-pill text-bg-warning">PC</span>
+          <span class="badge rounded-pill text-bg-info">Size</span>
+
+          <span class="badge rounded-pill text-bg-success">Available</span>
+        </div>
+        <p class="card-text bold">Release Date</p>
+        <p class="card-text">Minimum requirements<small class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam asperiores impedit iure, debitis officiis! Omnis quae ea odio fugiat.
+        </small></p>
+      </div>
+      <div class="card-footer d-flex align-items-center gap-2 justify-content-between bg-white border-0 p-2">
+        <a href="#" class="btn btn-primary">View</a>
+        <a href="#" class="btn btn-secondary">Add to Cart</a>
+      </div>
+  </div>
+</section>
+          <?php } ?>
       </div>
     </div>
   </section>
 
   <section class="shop">
     <div class="products">
-      <?php foreach ($data as $item) { ?>
-    <div class="col-md-4 product-card">
-      <div class="card">
-        <img src="<?php echo $item.image?>" alt="<?php echo $item.title?>" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title fst-italic fw-bold"><?php echo $item.title?></h5>
-          <p class="card-text"><strong>Category:</strong><?php echo $item.category?></p>
-          <p class="card-text"><strong></strong><i class="bi bi-truck"></i><?php echo $item.availability?></p>
-          <p class="card-text"><strong>Price</strong><?php echo $item.price?></p>
-          <button class="btn add-to-cart"><i class="bi bi-cart"></i> Add to Cart</button>
-        </div>
+      <?php foreach ($products as $item) { ?>
+        <div class="col-md-4 product-card">
+    <div class="card">
+      <img src="<?php echo $item["image"]?>" alt="Elden Ring" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title fst-italic fw-bold"><?php echo $item["name"]?></h5>
+        <p class="card-text"><strong>Category:</strong><?php echo $item["category"]?></p>
+        <p class="card-text"><strong><?php echo $item["stock"]?></strong></p>
+        <p class="card-text"><strong></strong><i class="bi bi-truck"></i><?php echo $item["delivery"]?></p>
+        <p class="card-text"><strong>Price</strong> $<?php echo $item["price"]?></p>
+        <button class="btn add-to-cart"><i class="bi bi-cart"></i> Add to Cart</button>
       </div>
     </div>
+  </div>
     <?php } ?>
     </div>
   </section>
