@@ -140,7 +140,6 @@ $products= [
     "price" => "69.99",
     "image" => "https://i.pinimg.com/564x/2a/77/5d/2a775da242bfe46dd245823826fee4dd.jpg"
   ]
-  // Add more products as needed
 ];
 ?>
 
