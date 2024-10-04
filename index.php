@@ -72,7 +72,7 @@ $products= [
     "stock" => "In Stock",
     "delivery" => "Local Delivery Available",
     "price" => "69.99",
-    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+    "image" => "https://i.pinimg.com/564x/cf/d6/7c/cfd67cf1c0bb1c311b185c144dd211b6.jpg"
   ],
   [
     "name" => "Product 3",
@@ -84,19 +84,19 @@ $products= [
   ],
   [
     "name" => "Product 4",
-    "category" => "Gaming Pad",
+    "category" => "PS 5",
     "stock" => "In Stock",
     "delivery" => "Local Delivery Available",
     "price" => "69.99",
-    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+    "image" => "https://i.pinimg.com/736x/3f/4c/84/3f4c84129f0c01e819e73fc392480bce.jpg"
   ],
   [
     "name" => "Product 5",
-    "category" => "Gaming Pad",
+    "category" => "Cusomized Gaming Pad",
     "stock" => "In Stock",
     "delivery" => "Local Delivery Available",
     "price" => "69.99",
-    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+    "image" => "https://i.pinimg.com/564x/fe/c6/83/fec683f6067f82ed11d75b33e73ea5de.jpg"
   ],
   [
     "name" => "Product 6",
@@ -104,7 +104,7 @@ $products= [
     "stock" => "In Stock",
     "delivery" => "Local Delivery Available",
     "price" => "69.99",
-    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+    "image" => "https://i.pinimg.com/564x/2a/77/5d/2a775da242bfe46dd245823826fee4dd.jpg"
   ]
 ]
 
