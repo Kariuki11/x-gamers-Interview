@@ -53,7 +53,7 @@ $games= [
     "size" => "50GB",
     "release_date" => "2022",
     "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
-    "image" => "https://i.pinimg.com/564x/97/a4/88/97a488fdb368f0b37e719c2a191305c0.jpg"
+    "image" => "https://i.pinimg.com/564x/0f/55/c2/0f55c28bbaf2deb75ea2d33707e75129.jpg"
   ],
   [
     "title" => "Game 6",
@@ -64,9 +64,31 @@ $games= [
     "size" => "60GB",
     "release_date" => "2022",
     "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
-    "image" => "https://i.pinimg.com/564x/97/a4/88/97a488fdb368f0b37e719c2a191305c0.jpg"
+    "image" => "https://i.pinimg.com/736x/e5/da/ae/e5daae2ee37b767d982982cc766ae76f.jpg"
 
-]
+  ],
+  [
+    "title" => "Game 7",
+    "price" => "700",
+    "genre" => "Sports",
+    "availability" => "Available",
+    "platform" => "PC",
+    "size" => "70GB",
+    "release_date" => "2022",
+    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+    "image" => "https://i.pinimg.com/564x/fe/c6/83/fec683f6067f82ed11d75b33e73ea5de.jpg"
+  ],
+  [
+    "title" => "Game 8",
+    "price" => "800",
+    "genre" => "Horror",
+    "availability" => "Available",
+    "platform" => "PC",
+    "size" => "80GB",
+    "release_date" => "2022",
+    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+    "image" => "https://i.pinimg.com/564x/2a/77/5d/2a775da242bfe46dd245823826fee4dd.jpg"
+  ]
   // Add more games as needed
 ];
 $products= [
