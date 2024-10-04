@@ -155,7 +155,7 @@ $products= [
           </div>
       </div>
       <div class="card-body p-2">
-        <h5 class="card-title "><?php echo $item["name"]?></h5>
+        <h5 class="card-title "><?php echo $item["title"]?></h5>
         <div>
           <span class="badge rounded-pill text-bg-primary">Price</span>
           <span class="badge rounded-pill text-bg-secondary">Genre</span>
