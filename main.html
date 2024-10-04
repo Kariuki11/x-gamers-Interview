@@ -1,59 +1,181 @@
-<footer class="bg-light py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mb-3">
-        <a href="#" class="d-flex align-items-center text-decoration-none">
-          <img src="#" class="h-8 me-3" alt="Logo" />
-          <span class="h4 mb-0 font-weight-bold text-dark">XGAMER</span>
-        </a>
-      </div>
-      <div class="col-md-2 mb-3">
-        <h5 class="text-dark text-uppercase">Popular Site Links</h5>
-        <ul class="list-unstyled">
-          <li class="mb-2">
-            <a href="#" class="text-muted text-decoration-none">Customer Reward Scheme</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="text-muted text-decoration-none">Frequently Asked Questions</a>
-          </li>
-          <li>
-            <a href="#" class="text-muted text-decoration-none">Careers</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-2 mb-3">
-        <h5 class="text-dark text-uppercase">Support</h5>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et metus at lorem blandit placerat.</p>
-      </div>
-      <div class="col-md-2 mb-3">
-        <h5 class="text-dark text-uppercase">Our Office Location</h5>
-        <p class="text-muted">Find us at:</p>
-        <div class="ratio ratio-16x9">
-          <iframe src="https://maps.app.goo.gl/i7Z7PqniD46D5RvR7" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <h5 class="text-dark text-uppercase mt-3">Follow Us</h5>
-        <ul class="list-unstyled text-center">
-          <li class="mb-2">
-            <a href="#" class="text-muted text-decoration-none">Facebook</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="text-muted text-decoration-none">Instagram</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="text-muted text-decoration-none">Twitter</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="text-muted text-decoration-none">YouTube</a>
-          </li>
-          <li>
-            <a href="#" class="text-muted text-decoration-none">WhatsApp</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>x-Gamers</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/bootstrap/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+      body {
+        background-color: #f2f2f2;
+      }
+      #sidebar {
+        width: 250px;
+        display: none;
+      }
+    </style>
+</head>
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Details</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Customer Portal</a>
           </li>
         </ul>
       </div>
     </div>
-    <hr class="my-4" />
-    <div class="d-flex justify-content-center">
-      <span class="text-muted">© 2024 <a href="#" class="text-decoration-none">XGAMER technologies™</a>. All Rights Reserved.</span>
-    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <div class="d-flex">
+    <button class="btn btn-dark" id="menuToggle"><i class="bi bi-list"></i></button>
   </div>
-</footer>
+  <div id="sidebar" class="bg-dark position-fixed top-0 start-0 vh-100">
+    <ul class="list-group list-group-flush mt-3">
+      <li class="list-group-item bg-dark text-light"><a href="dashboard.html" class="text-decoration-none text-light">Dashboard</a></li>
+      <li class="list-group-item bg-dark text-light"><a href="about.html" class="text-decoration-none text-light">About Us</a></li>
+      <li class="list-group-item bg-dark text-light"><a href="products.html" class="text-decoration-none text-light">Products</a></li>
+    </ul>
+  </div>
+  
+  <script>
+    document.getElementById("menuToggle").onclick = function() {
+      var sidebar = document.getElementById("sidebar");
+      sidebar.style.display = sidebar.style.display === "none" ? "block" : "none";
+    };
+  </script>
+
+  <!-- Hero Section -->
+  <section>
+    <div class="hero w-100 h-90 video-background">
+      <iframe id="youtube-video" 
+        src="https://www.youtube.com/embed/g3T9K06p358?autoplay=1&mute=1&loop=1&playlist=g3T9K06p358&controls=0&showinfo=0&modestbranding=1"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="autoplay; fullscreen" 
+        allowfullscreen>
+      </iframe>
+      <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>Enjoy the background video!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Games Section -->
+  <section class="games">
+    <div class="text">
+      <h1>Games</h1>
+      <p>Get the best games at the best prices</p>
+      <div class="d-flex flex-row align-items-start overflow-x-scroll gap-3 p-3 w-100">
+        <!-- Game 1 -->
+        <div class="card mb-3 game-card col-md-3 shadow border rounded-md">
+          <div class="card-header bg-white border-0 p-0">
+            <div class="w-100 h-64 overflow-hidden min-w-72 position-relative">
+              <img src="https://i.pinimg.com/564x/ec/eb/84/eceb8403c8d34c9fc9dfc818f004c386.jpg" class="card-img-top img-fluid" alt="...">
+              <button type="button" class="btn btn-outline-primary position-absolute top-2 right-2 z-3 border-0 shadow-none">
+                <i class="bi-heart"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card-body p-2">
+            <h5 class="card-title">Game 1</h5>
+            <div>
+              <span class="badge rounded-pill text-bg-primary">100</span>
+              <span class="badge rounded-pill text-bg-secondary">Action</span>
+              <span class="badge rounded-pill text-bg-warning">PC</span>
+              <span class="badge rounded-pill text-bg-info">10GB</span>
+              <span class="badge rounded-pill text-bg-success">Available</span>
+            </div>
+            <p class="card-text bold">Release Date: <strong>2022</strong></p>
+            <p class="card-text">Minimum requirements: <small class="text-body-secondary">Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage</small></p>
+          </div>
+          <div class="card-footer d-flex align-items-center gap-2 justify-content-between bg-white border-0 p-2">
+            <a href="#" class="btn btn-primary">View</a>
+            <a href="#" class="btn btn-secondary">Add to Cart</a>
+          </div>
+        </div>
+
+        <!-- Game 2 -->
+        <div class="card mb-3 game-card col-md-3 shadow border rounded-md">
+          <div class="card-header bg-white border-0 p-0">
+            <div class="w-100 h-64 overflow-hidden min-w-72 position-relative">
+              <img src="https://i.pinimg.com/564x/ec/eb/84/eceb8403c8d34c9fc9dfc818f004c386.jpg" class="card-img-top img-fluid" alt="...">
+              <button type="button" class="btn btn-outline-primary position-absolute top-2 right-2 z-3 border-0 shadow-none">
+                <i class="bi-heart"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card-body p-2">
+            <h5 class="card-title">Game 2</h5>
+            <div>
+              <span class="badge rounded-pill text-bg-primary">200</span>
+              <span class="badge rounded-pill text-bg-secondary">Adventure</span>
+              <span class="badge rounded-pill text-bg-warning">PC</span>
+              <span class="badge rounded-pill text-bg-info">20GB</span>
+              <span class="badge rounded-pill text-bg-success">Available</span>
+            </div>
+            <p class="card-text bold">Release Date: <strong>2022</strong></p>
+            <p class="card-text">Minimum requirements: <small class="text-body-secondary">Intel Core i7, 16GB RAM, 4GB VRAM, 40GB Storage</small></p>
+          </div>
+          <div class="card-footer d-flex align-items-center gap-2 justify-content-between bg-white border-0 p-2">
+            <a href="#" class="btn btn-primary">View</a>
+            <a href="#" class="btn btn-secondary">Add to Cart</a>
+          </div>
+        </div>
+
+        <!-- Add more games similarly -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+  <section class="shop">
+    <div class="products d-flex flex-row align-items-start overflow-x-scroll gap-3 p-3">
+      <!-- Product 1 -->
+      <div class="col-md-4 product-card">
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg" alt="Product 1" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title fst-italic fw-bold">Product 1</h5>
+            <p class="card-text"><strong>Category:</strong> Gaming Pad</p>
+            <p class="card-text"><strong>In Stock</strong></p>
+            <p class="card-text"><i class="bi bi-truck"></i> Local Delivery Available</p>
+            <p class="card-text"><strong>Price:</strong> $69.99</p>
+            <button class="btn add-to-cart"><i class="bi bi-cart"></i> Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-4 product-card">
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg" alt="Product 2" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title fst-italic fw-bold">Product 2</h5>
+            <p class="card-text"><strong>Category:</strong> Gaming Chair</p>
+            <p class="card-text"><strong>In Stock</strong></p>
+            <p class="card-text"><i class="bi bi-truck"></i> Local Delivery Available</p>
+            <p class="card-text"><strong>Price:</strong> $199.99</p>
+            <button class="btn add-to-cart"><i class="bi bi-cart"></i> Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more products similarly -->
+    </div>
+  </section>
+</body>
+</html>
+

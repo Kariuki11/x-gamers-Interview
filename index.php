@@ -67,6 +67,46 @@ $products= [
     "price" => "69.99",
     "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
   ],
+  [
+    "name" => "Product 2",
+    "category" => "Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/cf/d6/7c/cfd67cf1c0bb1c311b185c144dd211b6.jpg"
+  ],
+  [
+    "name" => "Product 3",
+    "category" => "Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+  ],
+  [
+    "name" => "Product 4",
+    "category" => "PS 5",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/736x/3f/4c/84/3f4c84129f0c01e819e73fc392480bce.jpg"
+  ],
+  [
+    "name" => "Product 5",
+    "category" => "Cusomized Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/fe/c6/83/fec683f6067f82ed11d75b33e73ea5de.jpg"
+  ],
+  [
+    "name" => "Product 6",
+    "category" => "Gaming Pad",
+    "stock" => "In Stock",
+    "delivery" => "Local Delivery Available",
+    "price" => "69.99",
+    "image" => "https://i.pinimg.com/564x/2a/77/5d/2a775da242bfe46dd245823826fee4dd.jpg"
+  ]
   // Add more products as needed
 ];
 ?>
@@ -116,9 +156,9 @@ $products= [
   </div>
   <div id="sidebar" class="bg-dark position-fixed top-0 start-0 vh-100">
     <ul class="list-group list-group-flush mt-3">
-      <li class="list-group-item bg-dark text-light"><a href="dashboard.html" class="text-decoration-none text-light">Dashboard</a></li>
-      <li class="list-group-item bg-dark text-light"><a href="about.html" class="text-decoration-none text-light">About Us</a></li>
-      <li class="list-group-item bg-dark text-light"><a href="products.html" class="text-decoration-none text-light">Products</a></li>
+      <li class="list-group-item bg-dark text-light"><a href="components/Dashboard.html" class="text-decoration-none text-light">Dashboard</a></li>
+      <li class="list-group-item bg-dark text-light"><a href="components/Aboutus.html" class="text-decoration-none text-light">About Us</a></li>
+      <li class="list-group-item bg-dark text-light"><a href="components/Products.html" class="text-decoration-none text-light">Products</a></li>
     </ul>
   </div>
   
