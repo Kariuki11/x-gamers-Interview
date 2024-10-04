@@ -1,3 +1,30 @@
+.hero-section {
+   background-color: #f8f9fa;
+   padding: 50px 0;
+   text-align: center;
+ }
+ .hero-section h1 {
+   font-size: 3rem;
+   margin-bottom: 20px;
+ }
+ .hero-section p {
+   font-size: 1.2rem;
+   color: #6c757d;
+ }
+ .about-content {
+   margin-top: 40px;
+ }
+ .about-team img {
+   border-radius: 50%;
+ }
+ .mission-vision {
+   margin-top: 50px;
+ }
+ .mission-vision h3 {
+   font-size: 1.8rem;
+   margin-bottom: 20px;
+ }
+
 body{
     margin: 0;
     padding: 0;
