@@ -20,3 +20,9 @@
  .hidden {
     display: none;
  }
+ .games .bg-img {
+   background: url(	https://www.xgamertechnologies.com/images/slideshow/2.webp);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
