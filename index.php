@@ -139,7 +139,7 @@ $products= [
     <div class="text">
       <h1>Games</h1>
       <p>Get the best games at the best prices</p>
-      <div class="flex flex-row align-items-center overflow-x-scroll gap-3 p-3">
+      <div class="d-flex flex-row align-items-start overflow-x-scroll gap-3 p-3 w-100">
 
       
         <?php foreach ($games as $game) { ?>
@@ -155,18 +155,17 @@ $products= [
           </div>
       </div>
       <div class="card-body p-2">
-        <h5 class="card-title "><?php echo $item["title"]?></h5>
+        <h5 class="card-title "><?php echo $game["title"]?></h5>
         <div>
-          <span class="badge rounded-pill text-bg-primary">Price</span>
-          <span class="badge rounded-pill text-bg-secondary">Genre</span>
-          <span class="badge rounded-pill text-bg-success">Available</span>
-          <span class="badge rounded-pill text-bg-warning">PC</span>
-          <span class="badge rounded-pill text-bg-info">Size</span>
+          <span class="badge rounded-pill text-bg-primary"><?php echo $game["price"]?></span>
+          <span class="badge rounded-pill text-bg-secondary<?php echo $game["genre"]?>"></span>
+          <span class="badge rounded-pill text-bg-warning"><?php echo $game["platform"]?></span>
+          <span class="badge rounded-pill text-bg-info"><?php echo $game["size"]?></span>
 
-          <span class="badge rounded-pill text-bg-success">Available</span>
+          <span class="badge rounded-pill text-bg-success"><?php echo $game["availability"]?></span>
         </div>
-        <p class="card-text bold">Release Date</p>
-        <p class="card-text">Minimum requirements<small class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam asperiores impedit iure, debitis officiis! Omnis quae ea odio fugiat.
+        <p class="card-text bold">Release Date: <strong><?php echo $game["release_date"]?></strong></p>
+        <p class="card-text">Minimum requirements: <small class="text-body-secondary"><?php echo $game["min_requirements"]?>
         </small></p>
       </div>
       <div class="card-footer d-flex align-items-center gap-2 justify-content-between bg-white border-0 p-2">
@@ -181,7 +180,7 @@ $products= [
   </section>
 
   <section class="shop">
-    <div class="products flex flex-row align-items-center overflow-x-scroll gap-3 p-3">
+    <div class="products d-flex flex-row align-items-start overflow-x-scroll gap-3 p-3">
       <?php foreach ($products as $item) { ?>
         <div class="col-md-4 product-card">
     <div class="card">
