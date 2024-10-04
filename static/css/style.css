@@ -26,6 +26,9 @@
    background-position: center;
    background-repeat: no-repeat;
  }
+ .hero {
+   min-height: 640px;
+ }
 
  .hero .bg-video {
    background: url(https://youtu.be/g3T9K06p358?si=t80eFD0Z3H0tBb-s);
